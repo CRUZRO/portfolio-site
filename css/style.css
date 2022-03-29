@@ -1,3 +1,10 @@
+/*
+Colors used:
+Background Color (mintcream): #F5FFFA;
+Primary Color (black): #000000;
+*/
+
 body {
 background-color:mintcream;
+font-family: 'Fira Sans', sans-serif;
 }
