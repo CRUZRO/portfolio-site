@@ -6,5 +6,8 @@ Primary Color (black): #000000;
 
 body {
 background-color:mintcream;
-font-family: 'Fira Sans', sans-serif;
+font-family: 'Nanum Myeongjo', serif;
+img {
+    width: 100%;
+  }
 }
