@@ -7,7 +7,12 @@ Primary Color (black): #000000;
 body {
 background-color:mintcream;
 font-family: 'Nanum Myeongjo', serif;
+font-size: 16px;
+font-weight: 300;
+line-height: 1.6;
+color:black
+}
+
 img {
     width: 100%;
   }
-}
