@@ -1,12 +1,12 @@
 /*
 Colors used:
-Background Color (mintcream): #F5FFFA;
+Background Color (buttercream): ##EFE1CE;
 Primary Color (black): #000000;
-Accent color dark sea green: 8FBC8F
+Accent color (desert mist): #e0b589;
 */
 
 body {
-background-color:mintcream;
+background-color:#EFE1CE;
 font-family: 'Nanum Myeongjo', serif;
 font-size: 16px;
 font-weight: 300;
@@ -19,7 +19,7 @@ h1,h2,h3,h4 {
 }
 h1 {
   font-size: 2.75em;
-  font-weight: 800;
+  font-weight: 700;
 }
 h2 {
   font-size: 2.25em;
@@ -54,12 +54,12 @@ img {
   }
 
   a:active {
-    color: darkseagreen
+    color: #e0b589
   }
 
   .button {
     display: inline-block;
-    background-color: darkseagreen;
+    background-color: #e0b589;
     color: #ffffff;
     font-weight: 400;
     padding: 6px 12px;
@@ -74,11 +74,11 @@ img {
 
   .button.contact {
     background-color: transparent;
-    color: darkseagreen;
+    color: #e0b589;
     text-transform: uppercase;
-    border: 2px solid darkseagreen
+    border: 2px solid #e0b589
   }
   .button.contact:hover {
-    background-color: darkseagreen;
+    background-color: #e0b589;
     color: #ffffff;
   }
