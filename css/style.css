@@ -56,3 +56,19 @@ img {
   a:active {
     color: darkseagreen
   }
+
+  .button {
+    display: inline-block;
+    background-color: darkseagreen;
+    color: #ffffff;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 3px;
+    border-bottom: 2px solid darkseagreen;
+    transition: 0.2s opacity;
+  }
+
+  .button :hover {
+    opacity: 0.8;
+    text-decoration: none;
+  }
