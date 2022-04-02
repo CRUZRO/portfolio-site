@@ -6,78 +6,103 @@ Accent color (desert mist): #e0b589;
 */
 
 body {
-background-color:#EFE1CE;
-font-family: 'Nanum Myeongjo', serif;
-font-size: 16px;
-font-weight: 300;
-line-height: 1.6;
-color:black
+	background-color: #efe1ce;
+	font-family: 'Nanum Myeongjo', serif;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.6;
+	color: black;
 }
-h1,h2,h3,h4 {
-  line-height: 1.4;
+h1,
+h2,
+h3,
+h4 {
+	line-height: 1.4;
 }
 h1 {
-  font-size: 2.75em;
-  font-weight: 700;
+	font-size: 2.75em;
+	font-weight: 700;
 }
 h2 {
-  font-size: 2.25em;
-  font-weight: 700;
+	font-size: 2.25em;
+	font-weight: 700;
 }
 h3 {
-  font-size: 1.75em;
-  font-weight: 400;
+	font-size: 1.75em;
+	font-weight: 400;
 }
 h4 {
-  font-size: 1.35em;
-  font-weight: 400;
+	font-size: 1.35em;
+	font-weight: 400;
 }
 
 img {
-    width: 100%;
-  }
+	width: 100%;
+}
 
-  a{
-    color:blue;
-    text-decoration: none;
-  }
+a {
+	color: blue;
+	text-decoration: none;
+}
 
-  a:hover,
-  a:focus {
-    color:#DEB887;
-    text-decoration: underline; 
-  }
+a:hover,
+a:focus {
+	text-decoration: underline;
+}
 
-  a:visited {
-    color: blue
-  }
+/* a:visited {
+	color: blue;
+} */
 
-  a:active {
-    color: #e0b589
-  }
+a:active {
+	color: #e0b589;
+}
 
-  .button {
-    display: inline-block;
-    background-color: #e0b589;
-    color: #ffffff;
-    font-weight: 400;
-    padding: 6px 12px;
-    border: none;
-    border-radius: 4px;
-    transition: 0.2s opacity;
-  }
-  .button :hover {
-    opacity: 0.8;
-    text-decoration: none;
-  }
+.button {
+	display: inline-block;
+	background-color: #e0b589;
+	color: #ffffff;
+	font-weight: 400;
+	padding: 6px 12px;
+	border: none;
+	border-radius: 4px;
+	transition: 0.2s all;
+	border: 1px solid transparent;
+	transition: all 0.2s;
+}
 
-  .button.contact {
-    background-color: transparent;
-    color: #e0b589;
-    text-transform: uppercase;
-    border: 2px solid #e0b589
-  }
-  .button.contact:hover {
-    background-color: #e0b589;
-    color: #ffffff;
-  }
+.button:hover {
+	opacity: 0.8;
+	color: #e0b589;
+	background-color: transparent;
+	border: 1px solid #e0b589;
+	text-decoration: none;
+	transition: all 0.5s;
+}
+
+.button.contact {
+	background-color: transparent;
+	color: #e0b589;
+	text-transform: uppercase;
+	border: 2px solid #e0b589;
+}
+
+.button.contact:hover {
+	background-color: #e0b589;
+	color: #ffffff;
+}
+
+.myNav a {
+	color: black;
+}
+
+.custom-heading {
+	padding: 50px;
+	background: aqua;
+	width: 260px;
+	margin: auto;
+}
+
+.testing {
+	border: 2px saddlebrown dotted;
+}
