@@ -98,11 +98,7 @@ a:active {
 
 .custom-heading {
 	padding: 50px;
-	background: aqua;
-	width: 260px;
+  width: 260px;
 	margin: auto;
 }
 
-.testing {
-	border: 2px saddlebrown dotted;
-}
