@@ -4,6 +4,13 @@ Background Color (buttercream): #EFE1CE;
 Primary Color (black): #000000;
 Accent color (desert mist): #e0b589;
 */
+* {
+box-sizing: border-box;
+}
+
+header {
+	background-color: white;
+}
 
 body {
 	background-color: #efe1ce;
@@ -13,6 +20,7 @@ body {
 	line-height: 1.6;
 	color: black;
 }
+
 h1,
 h2,
 h3,
@@ -81,6 +89,7 @@ a:active {
 }
 
 .button.contact {
+	display: inline-block;
 	background-color: transparent;
 	color: #e0b589;
 	text-transform: uppercase;
@@ -98,10 +107,15 @@ a:active {
 
 .custom-heading {
 	padding: 50px;
-  width: 260px;
+    width: 260px;
 	margin: auto;
 }
 
 #first-title {
 color: #e0b589; 
+}
+
+/*layout styling*/
+.container {
+	padding: 0 15px;
 }
