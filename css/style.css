@@ -10,6 +10,8 @@ box-sizing: border-box;
 
 header {
 	background-color: white;
+	text-align: center;
+	padding: 10px 0;
 }
 
 body {
@@ -118,4 +120,17 @@ color: #e0b589;
 /*layout styling*/
 .container {
 	padding: 0 15px;
+}
+
+#work .row {
+	margin: 25px 0; 
+	padding-bottom: 25px;
+}
+
+#hero {
+	text-align: center;
+}
+
+.logo {
+	max-width: 200px;
 }
