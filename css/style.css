@@ -9,13 +9,24 @@ box-sizing: border-box;
 }
 
 header {
-	background-color: white;
+	background-color: #EFE1CE ;
 	text-align: center;
 	padding: 10px 0;
+	-webkit-box-shadow: 0px 4px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 4px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 4px 5px 0px rgba(50, 50, 50, 0.75);
+	position: fixed;
+	display: inline-block;
+	width: 100%;
 }
 
+main {
+	padding-top: 300px; /*header too big, can't make logo smaller*/
+}
+
+
 body {
-	background-color: #efe1ce;
+	background-color: white;
 	font-family: 'Nanum Myeongjo', serif;
 	font-size: 16px;
 	font-weight: 300;
@@ -77,7 +88,7 @@ a:active {
 	border: none;
 	border-radius: 4px;
 	transition: 0.2s all;
-	border: 1px solid transparent;
+	border: 2px solid transparent;
 	transition: all 0.2s;
 }
 
@@ -92,32 +103,32 @@ a:active {
 
 .button.contact {
 	display: inline-block;
-	background-color: transparent;
-	color: #e0b589;
-	text-transform: uppercase;
-	border: 2px solid #e0b589;
+	background-color: #e0b589;
+	color: white;
+	font-weight: 400;
+	padding: 6px 12px;
+	border-radius: 4px;
+	border: 2px solid transparent;
+	transition: all 0.2s;
 }
 
 .button.contact:hover {
-	background-color: #e0b589;
-	color: #ffffff;
+	opacity: 0.8;
+	color: #e0b589;
+	background-color: transparent;
+	border: 1px solid #e0b589;
+	text-decoration: none;
+	transition: all 0.5s;
 }
 
-.myNav a {
-	color: black;
-}
-
-.custom-heading {
-	padding: 50px;
-    width: 260px;
-	margin: auto;
-}
 
 #first-title {
 color: #e0b589; 
+font-weight: 700;
 }
 
 /*layout styling*/
+
 .container {
 	padding: 0 15px;
 }
@@ -129,8 +140,35 @@ color: #e0b589;
 
 #hero {
 	text-align: center;
+	padding: 20px 0;
+	display: inline-block;
+	width: 100%;
 }
 
-.logo {
+.logo,
+.headshot {
 	max-width: 200px;
+}
+
+.myNav > ul {
+	list-style-type: none;
+	padding: 0;
+	width: 100%;
+}
+
+.myNav > ul > li {
+	display: inline-block;
+}
+
+.myNav > ul > li > a {
+	padding: 0 15px;
+	text-transform: uppercase;
+	font-weight: 800;
+	color:black
+}
+.myNav > ul > li > a:hover {
+	opacity: 0.8;
+	text-decoration: underline;
+	color: #e0b589;
+	transition: all 0.3s;
 }
