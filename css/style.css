@@ -47,6 +47,9 @@ h1 {
 h2 {
 	font-size: 2.25em;
 	font-weight: 700;
+	background-color: #EFE1CE;
+	color: white;
+	text-align: center;
 }
 h3 {
 	font-size: 1.75em;
@@ -69,6 +72,10 @@ a {
 a:hover,
 a:focus {
 	text-decoration: underline;
+}
+
+footer {
+	background-color: #EFE1CE;
 }
 
 /* a:visited {
