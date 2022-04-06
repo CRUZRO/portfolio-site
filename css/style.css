@@ -145,6 +145,11 @@ font-weight: 700;
 	width: 100%;
 }
 
+#social {
+	display: inline-block;
+	width: 100%;
+}
+
 .logo,
 .headshot {
 	max-width: 200px;
