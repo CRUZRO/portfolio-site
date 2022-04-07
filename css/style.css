@@ -94,8 +94,6 @@ svg {
 	padding: 10px 10px;
 }
 
-
-
 #social {
 	margin-top: 25px 10px;
 	display: inline-block;
@@ -156,12 +154,22 @@ color: #e0b589;
 font-weight: 700;
 }
 
+#first-title span {
+	display:block;
+	color:black;
+}
 /*layout styling*/
 
 
 .container {
 	padding: 0 15px;
 	margin: 25px 0;
+}
+
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
 }
 
 #work .row {
@@ -220,14 +228,33 @@ font-weight: 700;
 	transition: all 0.3s;
 }
 
+/*medium*/
 @media only screen and (min-width: 640px) {
-
+header {
+	text-align:unset;
+	padding: 20px 0 13px;
+}
+nav {
+	width:auto;
+	float:right;
+	margin-top: 4px;
+}
+body {
+	font-size: 18px;
 }
 
+[class*= "col-"] {
+	width: 50%;
+	float:left;
+}
+}
+
+/*large*/
 @media only screen and (min-width: 1024px) {
 	
 }
 
+/*x-large*/
 @media only screen and (min-width: 1440px) {
 	
 }
