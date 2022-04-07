@@ -21,8 +21,9 @@ header {
 }
 
 main {
-	padding-top: 150px; /*header too big, can't make logo smaller*/
+	padding-top: 150px; /*only working for index page*/
 }
+
 
 body {
 	background-color: white;
@@ -93,11 +94,7 @@ svg {
 	padding: 10px 10px;
 }
 
-#headshot {
-	max-width: 20px;
-	max-height: 20px;
-	align-content: center;
-}
+
 
 #social {
 	margin-top: 25px 10px;
@@ -184,6 +181,17 @@ font-weight: 700;
 	display: inline-block;
 }
 
+#process {
+	padding: 20px 0;
+	display: inline-block;	
+}
+
+#headshot {
+	width: 20px;
+	height: 20px;
+	align-content: center;
+}
+
 .logo {
 	max-width: 80px;
 }
@@ -210,4 +218,16 @@ font-weight: 700;
 	text-decoration: underline;
 	color: #e0b589;
 	transition: all 0.3s;
+}
+
+@media only screen and (min-width: 640px) {
+
+}
+
+@media only screen and (min-width: 1024px) {
+	
+}
+
+@media only screen and (min-width: 1440px) {
+	
 }
