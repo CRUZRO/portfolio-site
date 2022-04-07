@@ -21,9 +21,8 @@ header {
 }
 
 main {
-	padding-top: 300px; /*header too big, can't make logo smaller*/
+	padding-top: 150px; /*header too big, can't make logo smaller*/
 }
-
 
 body {
 	background-color: white;
@@ -43,18 +42,22 @@ h4 {
 h1 {
 	font-size: 2.75em;
 	font-weight: 800;
+	padding: 20px 0;
 }
 h2 {
 	font-size: 2.25em;
 	font-weight: 700;
-	background-color: #EFE1CE;
-	color: white;
+	color: #EFE1CE;
 	text-align: center;
+	margin: 10px 0;
+	padding: 10px 0;
 }
+
 h3 {
 	font-size: 1.75em;
-	font-weight: 400;
+	font-weight: 400; 
 }
+
 h4 {
 	font-size: 1.35em;
 	font-weight: 400;
@@ -76,6 +79,29 @@ a:focus {
 
 footer {
 	background-color: #EFE1CE;
+	text-align: center
+}
+
+footer h2 {
+	color:black;
+}
+
+svg {
+	width: 70px;
+	height: 70px;
+	margin-top: 25px;
+	padding: 10px 10px;
+}
+
+#headshot {
+	max-width: 20px;
+	max-height: 20px;
+	align-content: center;
+}
+
+#social {
+	margin-top: 25px 10px;
+	display: inline-block;
 }
 
 /* a:visited {
@@ -128,13 +154,13 @@ a:active {
 	transition: all 0.5s;
 }
 
-
 #first-title {
 color: #e0b589; 
 font-weight: 700;
 }
 
 /*layout styling*/
+
 
 .container {
 	padding: 0 15px;
@@ -152,14 +178,8 @@ font-weight: 700;
 	width: 100%;
 }
 
-#social {
-	display: inline-block;
-	width: 100%;
-}
-
-.logo,
-.headshot {
-	max-width: 200px;
+.logo {
+	max-width: 80px;
 }
 
 .myNav > ul {
