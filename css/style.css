@@ -164,6 +164,7 @@ font-weight: 700;
 
 .container {
 	padding: 0 15px;
+	margin: 25px 0;
 }
 
 #work .row {
@@ -176,6 +177,11 @@ font-weight: 700;
 	padding: 20px 0;
 	display: inline-block;
 	width: 100%;
+}
+
+#about {
+	padding: 20px 0;
+	display: inline-block;
 }
 
 .logo {
@@ -198,6 +204,7 @@ font-weight: 700;
 	font-weight: 800;
 	color:black
 }
+
 .myNav > ul > li > a:hover {
 	opacity: 0.8;
 	text-decoration: underline;
