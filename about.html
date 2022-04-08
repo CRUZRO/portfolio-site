@@ -7,7 +7,7 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&family=Spartan:wght@100;300;700&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
   <title>About Romina Cruz</title>
@@ -28,17 +28,16 @@
   </header>
 
   <main>
-    <div id="about">
+    <div class="about">
       <div class="container">
       <div>
         <h1>About</h1>
       </div>
-      <div>
         <picture id="headshot">
           <source srcset="img/headshot.png" media="(max-width:767px)">
           <img src="img/headshot@2.png" alt="Romina Cruz">
         </picture>
-        <div class="container">
+        <div class="row">
           <h2>My Story</h2>
           <p>I was born and raised in Mexico and now I am based in NYC. My background is in hospitality business
             administration and performing arts. As a dance performer and instructor, I created patterns and combinations
@@ -50,9 +49,10 @@
             color theory. I aim to continue developing my creative self designing intuitive flows and visually appealing
             interfaces that focus on the users, helping them achieve their goals.</p>
           <a href="files/Romina-Cruz-Resume.docx.zip" class="button">View my resume</a>
-          <div>
-            <h2>Skills & Tools</h2>
-            <div>
+        </div>
+        <h2>Skills & Tools</h2>
+        <div class="row">
+          <div class="col-med-6">
               <h3>Skills</h3>
               <ul>
                 <li>User Research (Competitor analysis, User interviews, Testing)</li>
@@ -62,7 +62,7 @@
                 <li>Frontend development</li>
               </ul>
             </div>
-            <div>
+            <div class="col-med-6">
               <h3>Tools</h3>
               <ul>
                 <li>Figma</li>
@@ -72,9 +72,7 @@
                 <li>Photoshop</li>
               </ul>
             </div>
-          </div>
-        </div>
-        </div>
+      </div>
       </div>
     </div>
   </main>
