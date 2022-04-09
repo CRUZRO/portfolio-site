@@ -103,12 +103,20 @@ svg {
 	padding: 20px 0;
 }
 
-#headshot {
-	max-width: 50px;
-	max-height: 50px;
-	align-content: center;
+main #headshot {
+	text-align: center;
 }
 
+#head-shot {
+	width: 40%;
+	display: flex;
+}
+
+#animation-picture {
+	width: 100%; 
+    max-width: 100%;
+    height: auto;
+}
 
 #first-title {
 color: #e0b589; 
@@ -270,9 +278,30 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 }
+#head-shot {
+	width: 60%;	
 }
 
 /*x-large*/
 @media only screen and (min-width: 1440px) {
-	
+	#head-shot {
+		width: 80%;	
+	}
 }
+
+@keyframes color-change {
+	0% {fill: #edc655;}
+	50% {fill: #fcffad;}
+	100% {fill: #f76414;}
+}
+
+.sun {
+	animation-duration: 4s;
+	animation-name: color-change;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear;
+}
+
+.cloud-front
+.cloud-back
