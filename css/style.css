@@ -98,6 +98,7 @@ svg {
 	margin-top: 25px 10px;
 	display: inline-block;
 }
+
 #about {
 	display: inline-block;
 	padding: 20px 0;
@@ -279,15 +280,18 @@ body {
 	margin-right: auto;
 }
 #head-shot {
-	width: 60%;	
+	width: 50%;	
 }
 
 /*x-large*/
 @media only screen and (min-width: 1440px) {
 	#head-shot {
-		width: 80%;	
+		width: 30%;	
 	}
 }
+
+
+/*animation*/
 
 @keyframes color-change {
 	0% {fill: #edc655;}
@@ -303,5 +307,20 @@ body {
 	animation-timing-function: linear;
 }
 
-.cloud-front
-.cloud-back
+@keyframes cloud-move {
+	from {transform: translate(0,50px);}
+to {transform: translate(200px,50px);}
+}
+
+.cloud-front {
+	animation: 10s cloud-move infinite alternate linear;
+}
+
+@keyframes cloud-move-reverse {
+	from {transform: translate(446px,48px);}
+to {transform: translate(350px,48px);}
+}
+
+.cloud-back {
+	animation: 10s cloud-move-reverse infinite alternate linear; 
+}
