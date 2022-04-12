@@ -99,12 +99,6 @@ svg {
 	display: inline-block;
 }
 
-#about {
-	display: inline-block;
-	padding: 20px 0;
-}
-
-
 #head-shot {
 	width: 30%;
 	display: flex;
@@ -189,7 +183,6 @@ a:active {
 
 /*layout styling*/
 
-
 .container {
 	padding: 0 15px;
 	margin: 25px 0;
@@ -218,6 +211,9 @@ a:active {
 	display: block;	
 }
 
+#about {
+	display: block;
+}
 
 .logo {
 	max-width: 80px;
@@ -247,7 +243,49 @@ a:active {
 	transition: all 0.3s;
 }
 
-/*medium*/
+/*animation*/
+@keyframes color-change {
+	0% {fill: #edc655;}
+	50% {fill: #fcffad;}
+	100% {fill: #f76414;}
+}
+
+.sun {
+	animation-duration: 4s;
+	animation-name: color-change;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear;
+}
+
+@keyframes cloud-move {
+from {transform: translate(0,50px);}
+to {transform: translate(200px,50px);}
+}
+
+.cloud-front {
+	animation: 10s;
+	animation-name: cloud-move;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear;
+}
+
+@keyframes cloud-move-reverse {
+	from {transform: translate(446px,48px);}
+	to {transform: translate(350px,48px);}
+	}
+
+.cloud-back {
+	animation: 10s;
+	animation-name: cloud-move-reverse;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear;
+}
+
+
+/*Screen sizes- medium*/
 @media only screen and (min-width: 640px) {
 header {
 	text-align:unset;
@@ -271,14 +309,6 @@ body {
 	padding: 10px;
 }
 
-#about h3 { 
-	margin-top: 0;
-}
-
-#head-shot {
-	width: 30%;	
-}
-
 
 /*large*/
 @media only screen and (min-width: 1024px) {
@@ -293,48 +323,6 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 }
-#head-shot {
-	width: 30%;	
-}
-
-/*x-large*/
-@media only screen and (min-width: 1440px) {
-	#head-shot {
-		width: 30%;	
-	}
-}
 
 
-/*animation*/
-
-@keyframes color-change {
-	0% {fill: #edc655;}
-	50% {fill: #fcffad;}
-	100% {fill: #f76414;}
-}
-
-.sun {
-	animation-duration: 4s;
-	animation-name: color-change;
-	animation-iteration-count: infinite;
-	animation-direction: alternate;
-	animation-timing-function: linear;
-}
-
-@keyframes cloud-move {
-	from {transform: translate(0,50px);}
-to {transform: translate(200px,50px);}
-}
-
-.cloud-front {
-	animation: 10s cloud-move infinite alternate linear;
-}
-
-@keyframes cloud-move-reverse {
-	from {transform: translate(446px,48px);}
-to {transform: translate(350px,48px);}
-}
-
-.cloud-back {
-	animation: 10s cloud-move-reverse infinite alternate linear; 
-}
+/*error, can't solve it*/
