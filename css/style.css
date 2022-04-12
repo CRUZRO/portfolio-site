@@ -104,12 +104,21 @@ svg {
 	padding: 20px 0;
 }
 
-main #headshot {
-	text-align: center;
-}
 
 #head-shot {
+	width: 30%;
+	display: flex;
+	margin: auto;
+}
+
+.image-resize {
 	width: 40%;
+	display: flex;
+	margin: auto;
+}
+
+.image-compared {
+	width: 50%;
 	display: flex;
 	margin: auto;
 }
@@ -266,6 +275,10 @@ body {
 	margin-top: 0;
 }
 
+#head-shot {
+	width: 30%;	
+}
+
 
 /*large*/
 @media only screen and (min-width: 1024px) {
@@ -281,7 +294,7 @@ body {
 	margin-right: auto;
 }
 #head-shot {
-	width: 50%;	
+	width: 30%;	
 }
 
 /*x-large*/
