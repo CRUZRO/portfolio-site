@@ -10,7 +10,7 @@ box-sizing: border-box;
 
 header {
 	background-color: #EFE1CE ;
-	padding: 10px 0;
+	padding: 10px 0 4px;
 	-webkit-box-shadow: 0px 4px 5px 0px rgba(50, 50, 50, 0.75);
 	-moz-box-shadow:    0px 4px 5px 0px rgba(50, 50, 50, 0.75);
 	box-shadow:         0px 4px 5px 0px rgba(50, 50, 50, 0.75);
@@ -19,7 +19,7 @@ header {
 }
 
 main {
-	padding-top: 150px; /*only working for index page*/
+	padding-top: 120px; /*only working for index page*/
 }
 
 body {
@@ -209,6 +209,7 @@ a:active {
 }
 
 #about {
+	padding: 20px 0;
 	display: block;
 }
 
@@ -216,12 +217,12 @@ a:active {
 	max-width: 50px;
 }
 
+/*navigation bar*/
 .myNav > ul {
 	list-style-type: none;
 	padding: 0;
 	width: 100%;
 }
-
 
 .myNav > ul > li > a {
 	padding: 0 15px;
@@ -239,6 +240,23 @@ a:active {
 
 .navtoggle li:not(:last-child) {
 	display: none;
+}
+
+.navtoggle, .navtoggle.responsive {
+	position: relative;
+}
+
+.navtoggle li .icon {
+	position:absolute;
+	right: 0;
+	top: 2px;
+	font-size: 25px;
+	padding-right: 0;
+}
+
+nav > ul {
+	list-style-type: none;
+	padding: 0;
 }
 
 /*animation*/
@@ -320,6 +338,9 @@ body {
 
 .navtoggle li:last-child {
 	display: none;
+}
+nav > ul {
+	margin: 1em 0;
 }
 }
 
