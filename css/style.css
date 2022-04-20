@@ -259,6 +259,24 @@ nav > ul {
 	padding: 0;
 }
 
+.navtoggle.responsive li  {
+	display: block;
+}
+
+.navtoggle.responsive nav {
+	padding: 24px 0 0;
+  }
+  .navtoggle.responsive li  {
+	display: block;
+	padding: 10px 0;
+	border-top: .5px solid  #e0b589;
+  }
+  
+  .navtoggle.responsive li:last-child  {
+	padding: 0 0 10px;
+  }
+
+
 /*animation*/
 @keyframes color-change {
 	0% {fill: #edc655;}
