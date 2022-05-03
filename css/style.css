@@ -349,6 +349,9 @@ body {
 .myNav > ul > li {
 	display: inline-block;
 }
+.navtoggle.responsive li  {
+	border-top: none;
+}
 .navtoggle li:not(:last-child) {
 	display: inline-block;
 }
