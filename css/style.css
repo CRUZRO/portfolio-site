@@ -136,7 +136,7 @@ a:active {
 
 .button {
 	display: inline-block;
-	background-color: #e0b589;
+	background-color: #000000;
 	color: #ffffff;
 	font-weight: 400;
 	padding: 6px 12px;
@@ -149,16 +149,16 @@ a:active {
 
 .button:hover {
 	opacity: 0.8;
-	color: #e0b589;
+	color: #000000;
 	background-color: transparent;
-	border: 1px solid #e0b589;
+	border: 1px solid #000000;
 	text-decoration: none;
 	transition: all 0.5s;
 }
 
 .button.contact {
 	display: inline-block;
-	background-color: #e0b589;
+	background-color: #000000;
 	color: white;
 	font-weight: 400;
 	padding: 6px 12px;
@@ -169,9 +169,9 @@ a:active {
 
 .button.contact:hover {
 	opacity: 0.8;
-	color: #e0b589;
+	color: #000000;
 	background-color: transparent;
-	border: 1px solid #e0b589;
+	border: 1px solid #000000;
 	text-decoration: none;
 	transition: all 0.5s;
 }
@@ -264,16 +264,16 @@ nav > ul {
 
 .navtoggle.responsive nav {
 	padding: 24px 0 0;
-  }
-  .navtoggle.responsive li  {
+}
+.navtoggle.responsive li  {
 	display: block;
 	padding: 10px 0;
 	border-top: .5px solid  #e0b589;
-  }
-  
-  .navtoggle.responsive li:last-child  {
+}
+
+.navtoggle.responsive li:last-child  {
 	padding: 0 0 10px;
-  }
+}
 
 
 /*animation*/
